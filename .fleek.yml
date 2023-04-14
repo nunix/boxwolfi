@@ -1,0 +1,26 @@
+aliases:
+    fleeks: cd /root/.local/share/fleek
+    ll: ls -alF --color=auto
+bling: default
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: false
+    autopull: false
+    autopush: false
+    enabled: false
+name: Fleek Configuration
+packages:
+    - helix
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: bash
+systems:
+    - arch: x86_64
+      hostname: boxwolfi
+      os: linux
+      username: root
+unfree: true
